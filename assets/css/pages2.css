@@ -1,0 +1,107 @@
+/* ==========================================================================
+   IRON HAVEN — 11 Trainers, schedule, timeline, info cards
+   ========================================================================== */
+
+/* ---------- Trainer card ---------- */
+.trainer__media { position: relative; }
+.trainer__name { margin-bottom: 0.2rem; }
+.trainer__role {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.trainer__certs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+.trainer__socials { display: flex; gap: 0.5rem; margin-top: 1.15rem; }
+.trainer__socials a {
+  width: 36px; height: 36px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  color: var(--ink-3);
+  transition: all 0.25s var(--ease);
+}
+.trainer__socials a:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.trainer__socials svg { width: 16px; height: 16px; }
+.trainer__rate {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 2;
+}
+
+/* ---------- Class schedule table ---------- */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.schedule { width: 100%; min-width: 640px; border-collapse: collapse; font-size: var(--fs-sm); }
+.schedule caption {
+  text-align: left;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  padding: 1rem 1.15rem 0;
+}
+.schedule th, .schedule td { padding: 0.95rem 1.15rem; text-align: left; border-bottom: 1px solid var(--line); }
+.schedule thead th {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  border-bottom-color: var(--line-strong);
+}
+.schedule tbody tr { transition: background-color 0.25s var(--ease); }
+.schedule tbody tr:hover { background: rgba(255, 255, 255, 0.03); }
+.schedule tbody tr:last-child td { border-bottom: 0; }
+.schedule td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.schedule__level { color: var(--ink-2); }
+.schedule__time { color: var(--accent-2); font-weight: 700; white-space: nowrap; }
+
+/* ---------- Timeline ---------- */
+.timeline { position: relative; display: flex; flex-direction: column; gap: 1.75rem; }
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2), transparent);
+}
+.timeline__item { position: relative; padding-left: 60px; }
+.timeline__num {
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--bg-2);
+  border: 1px solid var(--line-strong);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+.timeline__item h3 { margin-bottom: 0.4rem; }
+.timeline__item p { color: var(--ink-2); font-size: var(--fs-sm); max-width: 60ch; }
+
+/* ---------- Info cards (contact) ---------- */
+.info-card { display: flex; gap: 1rem; align-items: flex-start; }
+.info-card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+.info-card p { font-size: var(--fs-sm); color: var(--ink-2); }
+.info-card a { color: var(--ink-2); }
+.info-card a:hover { color: var(--accent); }
+
+/* ---------- Map embed ---------- */
+.map-embed { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+.map-embed iframe {
+  display: block;
+  width: 100%;
+  height: 380px;
+  border: 0;
+  filter: grayscale(1) invert(0.92) contrast(0.85);
+}

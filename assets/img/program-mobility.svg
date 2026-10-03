@@ -1,0 +1,44 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="900" height="680" role="img" aria-label="MOBILITY mockup" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgprogrammobility" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8ff3d" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#120800" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0d0d13" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="vigprogrammobility" cx="50%" cy="42%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="fadeprogrammobility" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+    </linearGradient>
+    <pattern id="gridprogrammobility" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="680" fill="#0d0d13"/>
+  <rect width="900" height="680" fill="url(#bgprogrammobility)"/>
+  <g><rect width="900" height="" fill="url(#gridprogrammobility)"/></g>
+  <g><g transform="translate(450 313)"><g opacity="0.5" fill="none" stroke="#d8ff3d" stroke-width="3">
+  <ellipse cx="0" cy="140" rx="210" ry="20" stroke-opacity="0.35"/>
+  <ellipse cx="0" cy="140" rx="140" ry="13" stroke-opacity="0.22"/>
+</g>
+<g opacity="0.35" fill="#d8ff3d">
+  <circle cx="0" cy="-270" r="4"/>
+  <circle cx="-40" cy="-250" r="3"/>
+  <circle cx="42" cy="-258" r="3"/>
+</g><g opacity="0.92"><circle cx="0" cy="-150" r="26" fill="#f4f4f6"/>
+<path d="M0 -118 V0" stroke="#f4f4f6" stroke-width="52" stroke-linecap="round" fill="none"/>
+<path d="M0 -108 L-78 -14" stroke="#f4f4f6" stroke-width="26" stroke-linecap="round" fill="none"/>
+<path d="M0 -108 L78 -14" stroke="#f4f4f6" stroke-width="26" stroke-linecap="round" fill="none"/>
+<path d="M0 0 L-40 100" stroke="#f4f4f6" stroke-width="30" stroke-linecap="round" fill="none"/>
+<path d="M0 0 L40 100" stroke="#f4f4f6" stroke-width="30" stroke-linecap="round" fill="none"/></g></g></g>
+  <rect width="900" height="680" fill="url(#vigprogrammobility)"/>
+  <g transform="translate(63 544)">
+    <text x="0" y="0" fill="#f4f4f6" font-family="Anton, Impact, sans-serif" font-size="66" letter-spacing="2">MOBILITY</text>
+    <text x="2" y="44" fill="#7e808d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6">RECOVERY</text>
+  </g>
+  <rect y="680" width="900" height="40%" fill="url(#fadeprogrammobility)"/>
+</svg>

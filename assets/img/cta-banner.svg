@@ -1,0 +1,48 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="Iron Haven gym mockup" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgctabanner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5b2e" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#3d0d00" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0d0d13" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="vigctabanner" cx="50%" cy="42%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </radialGradient>
+    <linearGradient id="fadectabanner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+    </linearGradient>
+    <pattern id="gridctabanner" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="700" fill="#0d0d13"/>
+  <rect width="1600" height="700" fill="url(#bgctabanner)"/>
+  <g></g>
+  <g><g transform="translate(800 322)"><g opacity="0.5" fill="none" stroke="#d8ff3d" stroke-width="3">
+  <ellipse cx="0" cy="140" rx="210" ry="20" stroke-opacity="0.35"/>
+  <ellipse cx="0" cy="140" rx="140" ry="13" stroke-opacity="0.22"/>
+</g>
+<g opacity="0.35" fill="#d8ff3d">
+  <circle cx="0" cy="-270" r="4"/>
+  <circle cx="-40" cy="-250" r="3"/>
+  <circle cx="42" cy="-258" r="3"/>
+</g><g opacity="0.92"><circle cx="0" cy="-158" r="26" fill="#f4f4f6"/>
+<path d="M0 -126 V10" stroke="#f4f4f6" stroke-width="52" stroke-linecap="round" fill="none"/>
+<path d="M0 -116 L-88 -172" stroke="#f4f4f6" stroke-width="26" stroke-linecap="round" fill="none"/>
+<path d="M0 -116 L88 -172" stroke="#f4f4f6" stroke-width="26" stroke-linecap="round" fill="none"/>
+<path d="M0 10 L-46 108" stroke="#f4f4f6" stroke-width="30" stroke-linecap="round" fill="none"/>
+<path d="M0 10 L46 108" stroke="#f4f4f6" stroke-width="30" stroke-linecap="round" fill="none"/></g><g transform="translate(0 -34)"><g transform="scale(0.6)" fill="none" stroke="#ff5b2e" stroke-width="18" stroke-linecap="round">
+  <path d="M-150 0 H150"/>
+  <path d="M-108 -46 V46 M-90 -34 V34"/>
+  <path d="M108 -46 V46 M90 -34 V34"/>
+</g></g></g></g>
+  <rect width="1600" height="700" fill="url(#vigctabanner)"/>
+  <g transform="translate(112 560)">
+    <text x="0" y="0" fill="#f4f4f6" font-family="Anton, Impact, sans-serif" font-size="66" letter-spacing="2"></text>
+    <text x="2" y="44" fill="#7e808d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6"></text>
+  </g>
+  <rect y="700" width="1600" height="40%" fill="url(#fadectabanner)"/>
+</svg>
